@@ -34,7 +34,7 @@ elif opcion == '2':
         n1 = int(input("Ingrese su primer numero: "))
         n2 = int(input("Ingrese su segundo numero: "))
         n3 = int(input("Ingrese su tercer numero: "))
-        print("La suma de",n1,"*",n2,"*",n3,"=",n1*n2*n3)
+        print("La multiplicacion de",n1,"*",n2,"*",n3,"=",n1*n2*n3)
     
     else:
         print('Solamente puedes multiplicar 3 números')
