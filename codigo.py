@@ -1,5 +1,5 @@
 #Este codigo es para hacer una interfaz o menu con Python para la clase de Automatizacion de Infraestructura Digital I.
-#El autor de este codigo es el equipo de Gerardo Martinez, Miguel Cordova, Armando Tovar, Jose Rodriguez, Angel Hernandez.
+#El autor de este codigo es el equipo de Gerardo Martinez, Miguel Cordova, Armando Tovar, Jose Rodriguez, Angel Hernandez. 
 
 menu = """
 Hola usuario bienvenido a nuestro programa de operaciones Matematicas, 
