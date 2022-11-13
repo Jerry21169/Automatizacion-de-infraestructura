@@ -39,11 +39,38 @@ elif opcion == '2':
     else:
         print('Solamente puedes multiplicar 3 números')
 
+elif opcion == '3':
+    meconsol = """Haz elegido la opcion 3, pulsa enter para continuar:
+    """
+    print (meconsol)
+    total = input("que numeros deseas dividir")
+    numero1= float(input("introduzca el primer numero: "))
+    numero2= float(input("introduzca el segundo numero: "))
+    if numero2 == 0:
+        print ("el divisor no puede ser cero")
+    else:
+        print (numero1/numero2)
+    pass
 elif opcion == '4':
     pass
 elif opcion == '5':
-    pass
-elif opcion == '6':
+    meconsol = """Haz elegico la opcion 5: 
+    """
+    print (meconsol)
+    tabla = int(input("que tabla desea mostrar: "))
+    if tabla >=1 and tabla <=10:
+        print(tabla,"x 1 =",tabla*1)
+        print(tabla,"x 2 =",tabla*2)
+        print(tabla,"x 3 =",tabla*3)
+        print(tabla,"x 4 =",tabla*4)
+        print(tabla,"x 5 =",tabla*5)
+        print(tabla,"x 6 =",tabla*6)
+        print(tabla,"x 7 =",tabla*7)
+        print(tabla,"x 8 =",tabla*8)
+        print(tabla,"x 9 =",tabla*9)
+        print(tabla,"x 10 =",tabla*10)
+    else:
+        print("Escoja un numero entre el 1 y 10")    
     pass
 elif opcion == '7':
     pass
