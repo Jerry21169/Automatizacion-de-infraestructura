@@ -72,6 +72,14 @@ elif opcion == '5':
     else:
         print("Escoge un numero entre el 1 y 10")    
     
+elif opcion == '6':
+    n = int(input('Introduce el numero que quiera calcular: '))
+    cuadrado = n ** 2 
+    cubo = n ** 3 
+
+    print('El cuadrado de ', n , 'es' , cuadrado)
+    print('El cubo de ', n , 'es' , cubo)
+
 elif opcion == '7':
     pass
 elif opcion == '8':
