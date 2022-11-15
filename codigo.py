@@ -19,7 +19,11 @@ print (menu)
 opcion = input('Selecciona una opcion entre 1 a 8:')
 
 if opcion == '1':
-    pass
+    num1 = int(input("Ingrese el Primer numero: "))
+    num2 = int(input("Ingrese el Segundo numero: "))
+    suma = num1+num2
+    print ("La Suma es: ",suma)
+
 elif opcion == '2':
     meconsol = """ Haz elegido la opcion 2, ahora dinos que numero
  deseas que sea el producto entre varios numeros:
@@ -51,8 +55,10 @@ elif opcion == '3':
     else:
         print (numero1/numero2)
     pass
+
 elif opcion == '4':
     pass
+
 elif opcion == '5':
     meconsol = """Haz eligido la opcion 5: 
     """
@@ -81,8 +87,26 @@ elif opcion == '6':
     print('El cubo de ', n , 'es' , cubo)
 
 elif opcion == '7':
-    pass
+ contador = 0
+ suma = 0
+ numero = 1
+
+ while numero != -1:
+  numero = int(input("Ingrese un Numero (-1 Para Terminar): "))
+
+  suma += numero
+  contador +=1
+
+ if contador == 0:
+  print("No ingreso Ningun Numero")
+
+ else:
+  promedio = suma/contador
+
+  print ("El Promedio es: ",promedio)
+
 elif opcion == '8':
+
     pass
 else:
     print('Debes digitar un numero del 1 al 8')
