@@ -106,9 +106,26 @@ elif opcion == '7':
   print ("El Promedio es: ",promedio)
 
 elif opcion == '8':
+    veces =int (input ("Ingresa las veces que utilizaras el ciclo: "))
+    ma = 0
+    me = 0
+    c= 0
+    for i in range (veces):
+       print (".... ciclo " + str (i+1) )
+       num =int(input ("Ingrese un numero: " ))
+       c= c + num
+    if  num>ma:
+        ma = num   
+    elif num<ma :
+          me = num 
 
-    pass
+    print (me)
+    print (ma)
+    print(c)
+
+
+
 else:
-    print('Debes digitar un numero del 1 al 8')
-    print('=='*20)
+          print('Debes digitar un numero del 1 al 8')
+          print('=='*20)
 
